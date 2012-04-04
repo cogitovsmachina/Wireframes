@@ -18,25 +18,6 @@ public class WireframeActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.wireframe_layout);
 		// Opens a Canvas to do Drag & Drop
-
-		// set up list nav
-
-		final ActionBar actionBar = getActionBar();
-		actionBar.setListNavigationCallbacks(ArrayAdapter.createFromResource(
-				this, R.array.sections,
-				android.R.layout.simple_spinner_dropdown_item),
-				new OnNavigationListener() {
-					public boolean onNavigationItemSelected(int itemPosition,
-							long itemId) {
-						// FIXME add proper implementation
-						Toast.makeText(getApplicationContext(), "Works",
-								Toast.LENGTH_SHORT).show();
-
-						return false;
-					}
-
-				});
-
 	}
 
 	@Override
@@ -62,19 +43,11 @@ public class WireframeActivity extends Activity {
 		case R.id.action_edit_or_view:
 			// item.setActionView(R.layout.custom);
 		case R.id.action_new_view:
-			showDropDownNav();
-
+			Toast.makeText(getApplicationContext(), "...", Toast.LENGTH_SHORT).show();
 		}
 
 		return false;
 	}
 
-	private void showDropDownNav() {
-		ActionBar ab = getActionBar();
-		if (ab.getNavigationMode() != ActionBar.NAVIGATION_MODE_LIST) {
-			ab.setDisplayShowTitleEnabled(false);
-			ab.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
-		}
-	}
 
 }

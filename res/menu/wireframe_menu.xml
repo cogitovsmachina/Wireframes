@@ -19,6 +19,9 @@
         android:id="@+id/action_new_view"
         android:icon="@drawable/ic_action_new"
         android:showAsAction="ifRoom|withText"
+        android:actionLayout="@layout/action_list" 
         android:title="@string/action_views"/>
+    
+
 
 </menu>
