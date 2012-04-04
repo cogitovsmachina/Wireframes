@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wireframes</string>
+    <string name="wireframe_activity_label">Projects</string>
+    
+    <string name="action_save">Save</string>
+    <string name="action_new">New</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_preview">Preview</string>
+    <string name="action_send_via_email">Send by email</string>
+    <string name="action_new_screen">New Screen</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_navigate">Navigate</string>
+    <string name="action_views">Views</string>
+    <string name="action_layouts">Layouts</string>
+
+</resources>
