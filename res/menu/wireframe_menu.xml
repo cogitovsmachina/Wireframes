@@ -3,23 +3,22 @@
 
     <item
         android:id="@+id/action_edit_or_view"
-        android:showAsAction="always|withText"
         android:actionLayout="@layout/custom_switch_layout"
-        />
+        android:showAsAction="always|withText"/>
     <item
         android:id="@+id/action_new_screen"
         android:icon="@drawable/ic_action_new"
         android:showAsAction="ifRoom|withText"
         android:title="@string/action_new"/>
     <item
-        android:id="@+id/action_preview"
-        android:icon="@drawable/ic_action_preview"
-        android:showAsAction="ifRoom|withText"
-        android:title="@string/action_preview"/>
-    <item
         android:id="@+id/action_send_via_email"
         android:icon="@drawable/ic_action_send_via_email"
         android:showAsAction="ifRoom|withText"
         android:title="@string/action_send_via_email"/>
+    <item
+        android:id="@+id/action_new_view"
+        android:icon="@drawable/ic_action_new"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_views"/>
 
 </menu>
