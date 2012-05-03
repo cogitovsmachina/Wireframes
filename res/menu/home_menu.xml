@@ -6,7 +6,7 @@
         android:icon="@drawable/ic_action_new"
         android:showAsAction="ifRoom|withText"
         android:title="@string/action_new"/>
-    <item
+ <!--    <item
         android:id="@+id/action_copy"
         android:icon="@drawable/ic_action_copy"
         android:showAsAction="ifRoom|withText"
@@ -16,5 +16,6 @@
         android:icon="@drawable/ic_action_delete"
         android:showAsAction="ifRoom|withText"
         android:title="@string/action_delete"/>
+         -->
 
 </menu>

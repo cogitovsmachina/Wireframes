@@ -22,17 +22,24 @@ public final class R {
         public static final int ic_action_preview=0x7f020005;
         public static final int ic_action_send_via_email=0x7f020006;
         public static final int ic_launcher=0x7f020007;
-        public static final int window_background_home=0x7f020008;
+        public static final int sample_0=0x7f020008;
+        public static final int sample_1=0x7f020009;
+        public static final int sample_2=0x7f02000a;
+        public static final int sample_3=0x7f02000b;
+        public static final int sample_4=0x7f02000c;
+        public static final int sample_5=0x7f02000d;
+        public static final int sample_6=0x7f02000e;
+        public static final int sample_7=0x7f02000f;
+        public static final int window_background_home=0x7f020010;
     }
     public static final class id {
-        public static final int action_copy=0x7f080003;
-        public static final int action_delete=0x7f080004;
         public static final int action_edit_or_view=0x7f080001;
-        public static final int action_new=0x7f080002;
-        public static final int action_new_screen=0x7f080005;
-        public static final int action_new_view=0x7f080007;
-        public static final int action_send_via_email=0x7f080006;
+        public static final int action_new=0x7f080003;
+        public static final int action_new_screen=0x7f080004;
+        public static final int action_new_view=0x7f080006;
+        public static final int action_send_via_email=0x7f080005;
         public static final int custom_layout=0x7f080000;
+        public static final int gridview=0x7f080002;
     }
     public static final class layout {
         public static final int action_list=0x7f030000;
