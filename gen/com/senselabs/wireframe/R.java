@@ -34,12 +34,13 @@ public final class R {
     }
     public static final class id {
         public static final int action_edit_or_view=0x7f080001;
-        public static final int action_new=0x7f080003;
-        public static final int action_new_screen=0x7f080004;
-        public static final int action_new_view=0x7f080006;
-        public static final int action_send_via_email=0x7f080005;
+        public static final int action_new=0x7f080004;
+        public static final int action_new_screen=0x7f080005;
+        public static final int action_new_view=0x7f080007;
+        public static final int action_send_via_email=0x7f080006;
         public static final int custom_layout=0x7f080000;
         public static final int gridview=0x7f080002;
+        public static final int toast=0x7f080003;
     }
     public static final class layout {
         public static final int action_list=0x7f030000;
@@ -48,8 +49,9 @@ public final class R {
         public static final int wireframe_layout=0x7f030003;
     }
     public static final class menu {
-        public static final int home_menu=0x7f070000;
-        public static final int wireframe_menu=0x7f070001;
+        public static final int contextual=0x7f070000;
+        public static final int home_menu=0x7f070001;
+        public static final int wireframe_menu=0x7f070002;
     }
     public static final class string {
         public static final int action_copy=0x7f050005;
