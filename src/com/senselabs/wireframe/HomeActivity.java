@@ -7,11 +7,11 @@ import android.view.ActionMode;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.GridView;
+import android.widget.Toast;
 
 public class HomeActivity extends Activity {
-
+	protected Object mActionMode;
 	GridView gridView;
 
 	/** Called when the activity is first created. */
@@ -22,15 +22,12 @@ public class HomeActivity extends Activity {
 		// Look for Projects in SD, if there are projects then show in a
 		// gridview
 
-		//Adding long-touch capabilities to GridView
+		// Adding long-touch capabilities to GridView
 		gridView = (GridView) findViewById(R.id.gridview);
 		gridView.setAdapter(new ImageAdapter(this));
 		gridView.setChoiceMode(GridView.CHOICE_MODE_MULTIPLE_MODAL);
 		gridView.setMultiChoiceModeListener(new MultiChoiceModeListener());
 
-		//
-		
-		View view = findViewById(R.id.myView);
 	}
 
 	@Override
@@ -67,11 +64,28 @@ public class HomeActivity extends Activity {
 		}
 
 		public boolean onPrepareActionMode(ActionMode mode, Menu menu) {
+			MenuInflater inflater = mode.getMenuInflater();
+			inflater.inflate(R.menu.contextual, menu);
 			return true;
 		}
 
 		public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
-			return true;
+			switch (item.getItemId()) {
+			case R.id.copy:
+				Toast.makeText(HomeActivity.this,
+						"You selected copy a Chihuahua", Toast.LENGTH_SHORT)
+						.show();
+				mode.finish();
+			case R.id.delete:
+				Toast.makeText(HomeActivity.this,
+						"You selected delete a Chihuahua", Toast.LENGTH_SHORT)
+						.show();
+				mode.finish();
+
+				return true;
+			default:
+				return false;
+			}
 		}
 
 		public void onDestroyActionMode(ActionMode mode) {

@@ -34,13 +34,14 @@ public final class R {
     }
     public static final class id {
         public static final int action_edit_or_view=0x7f080001;
-        public static final int action_new=0x7f080004;
-        public static final int action_new_screen=0x7f080005;
-        public static final int action_new_view=0x7f080007;
-        public static final int action_send_via_email=0x7f080006;
+        public static final int action_new=0x7f080005;
+        public static final int action_new_screen=0x7f080006;
+        public static final int action_new_view=0x7f080008;
+        public static final int action_send_via_email=0x7f080007;
+        public static final int copy=0x7f080003;
         public static final int custom_layout=0x7f080000;
+        public static final int delete=0x7f080004;
         public static final int gridview=0x7f080002;
-        public static final int toast=0x7f080003;
     }
     public static final class layout {
         public static final int action_list=0x7f030000;

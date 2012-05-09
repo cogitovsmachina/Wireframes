@@ -2,8 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/toast"
-        android:title="Toast">
+        android:id="@+id/copy"
+        android:title="Copy">
+    </item>
+    <item
+        android:id="@+id/delete"
+        android:title="Delete">
     </item>
 
 </menu>
