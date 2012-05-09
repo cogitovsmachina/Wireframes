@@ -16,6 +16,7 @@ public final class R {
     public static final class drawable {
         public static final int background_effects=0x7f020000;
         public static final int background_noise_tile=0x7f020001;
+        public static final int blue=0x7f020011;
         public static final int ic_action_copy=0x7f020002;
         public static final int ic_action_delete=0x7f020003;
         public static final int ic_action_new=0x7f020004;
